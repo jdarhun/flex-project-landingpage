@@ -1,54 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial;
+}
+
 nav {
-    background-color: #1f2937;
+    background-color: #1e2124;
+    color: #7289da;
     display: flex;
     justify-content: space-between;
+    height: 52px;
 }
 
-.headerlogo {
-    color: #f9faf8;
-    font-size: 24px;
-}
-
-.headerlinks {
-    color: #e5e7eb;
-    font-size: 18px;
-    margin-right: 20px;
+.navlogoimage {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding-top: 1px;
+    padding-left: 1px;
 }
 
 ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-top: 15px;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header {
+    background-color: #36393e;
+    padding: 20px;
     display: flex;
+    justify-content: space-between;
+    height: 150px;
+    
+}
+
+.headerleft {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.headerright {
+    margin-right: 20%;
+    border: 2px solid;
+}
+
+.headerright img {
+    height: 146px;
+    width: 250px;
+}
+
+section {
+    background-color: #424549;
+    padding: 20px;
+    height: 250px;
+    
+}
+
+.topics {
+    border-bottom: 1px solid #36393e;
+}
+
+.topics p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.topicscontainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.topicscontainer img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+figcaption {
+  font-weight: bold;
 }
 
 .quote {
-    background-color: #e5e7eb;
-    color: #1f2937;
-    font-style: italic;
-    font-size: 36px;
+    border-bottom: 1px solid #36393e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.quotecontainer {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
+.quote p {
+    text-align: center;
+}
+
+.quotecontainer{
+
 }
 
 .quotetext {
-
+    font-size: 25px;
 }
 
 .quoteauthor {
     font-weight: bold;
-    text-align: right;
+    font-style: italic;
+    margin-left: 50px;
+    
 }
 
-.author {
-    font-weight: bold;
-}
-
-
-
-footer {
-    background-color: #1f2937;
-    color: #e5e7eb;
+.join {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
+
+.joinbutton {
+    background-color: #7289da;
+    border-radius: 5px;
+    border: 0;
+    width: 85px;
+    height: 25px;
+}
+
+footer {
+    background-color: #1e2124;
+    padding: 10px 20px;
+    color: #7289da;
+    text-align: center;
+    
+}
+
